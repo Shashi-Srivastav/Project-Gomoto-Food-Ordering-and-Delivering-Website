@@ -3,22 +3,23 @@
     margin: 0;
 }
 #navbar{
-    border: 2px solid red;
+    /* background-color: whitesmoke; */
+    /* border: 2px solid red; */
     display: flex;
     height: 80px;
     align-items: center;
-
+opacity: 0.9;
 }
 #navbar ul{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     list-style-type: none;
     padding: 18px 20px;
     margin: 0px 44px;;
 }
 #navbar ul a{
-    border: 2px solid green;
-    font-size: 1rem;
+    /* border: 2px solid green; */
+    font-size: 1.2rem;
     margin: 0px 13px;
     color: white;
     padding: 4px 30px;
@@ -26,24 +27,14 @@
     border-radius: 33px;
 }
 #logo{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 170px;
     height: 40px;
 }
 #navbar ul li a:hover{
-    background-color: rgb(98, 93, 93);
     color:yellow;
 }
-/* #home{
-    border: 2PX SOLID pink;
-    display: flex;
-    margin: 22px 0px;
-    padding: 65px 111px;
-    font-size: 1rem;
-    flex-direction: column;
-    justify-content: left;
-} */
-#navbar::before{
+#home::before{
     content: "";
     background: url('img/background1.png')no-repeat center center/cover;
     position: absolute;
@@ -51,5 +42,6 @@
     width: 100%;
     z-index: -1;
     left: 0px;
-
+    top: 0px;
+    
 }
