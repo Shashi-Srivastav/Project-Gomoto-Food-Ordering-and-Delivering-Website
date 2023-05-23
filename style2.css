@@ -49,7 +49,7 @@
   ul li a {
     padding: 0px 12px 0px 12px;
     border-radius: 12px;
-    color:yellow;
+    color:rgb(237, 172, 51);
     display: block;
     /* border: 2px solid black; */
     text-decoration: none;
@@ -96,7 +96,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   #home h1 a{
-    color: yellow;
+    color: rgb(237, 172, 51);
     text-align: center;
     position: absolute;
     top: 120px;
