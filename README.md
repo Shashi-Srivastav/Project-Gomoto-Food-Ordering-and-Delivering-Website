@@ -1,3 +1,6 @@
+ScreenShot - ![image](https://github.com/Shashi-Srivastav/Project-Gomoto-Food-Ordering-and-Delivering-Website/assets/119119389/a8017540-36e5-45bc-b337-52e81848cfe4)
+
+
 Project Description: GoMoto Food Delivery Website Replica
 
 Welcome to my GitHub repository featuring a replica of the GoMoto food delivery website. This project showcases my proficiency in front-end web development, with a focus on HTML and CSS.
@@ -14,4 +17,5 @@ I encourage you to explore this replica project and observe the similarities bet
 
 As you browse through the project, your feedback and suggestions are highly appreciated. I hope you find this replica project interesting and informative, and it inspires you in your own front-end development endeavors.
 
-ScreenShot ![image](https://github.com/Shashi-Srivastav/Project-Gomoto-Food-Ordering-and-Delivering-Website/assets/119119389/a8017540-36e5-45bc-b337-52e81848cfe4)
+
+
