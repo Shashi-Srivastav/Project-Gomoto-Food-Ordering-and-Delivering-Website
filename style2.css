@@ -160,7 +160,7 @@ ul li a:hover {
   top: 117px;
   display: inline-block;
   left: 140px;
-  font-size: 5rem;
+  font-size: 7rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -192,18 +192,16 @@ ul li a:hover {
   animation: 1s ease-out 0s 1 slideright;
 
   position: absolute !important;
-  top: 178px;
+  /* top: 178px; */
   right: 0px;
-  /* transform: translateX(0px);
-    transform: translateX(-100px); */
-  /* transition: all 0.5s ease-in-out; */
+  zoom: 1.1;
 }
 
 #glob img {
   position: absolute;
-  top: 100px;
+  top: 130px;
   size: 424px;
-  left: 350px;
+  left: 399px;
   zoom: 116%;
 }
 
@@ -215,4 +213,35 @@ ul li a:hover {
   100% {
     transform: translateX(0%);
   }
+}
+/* till now map, boy done  */
+
+.home2 {
+  border-radius: 50px;
+  /* border: 12px solid red; */
+  display: inline-flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 188px 0px 100px 128px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  top: 550px;
+  width: auto;
+}
+.home2 div {
+  border-radius: 32px;
+  display: flex;
+height: 150px;
+width: 300px;
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* border: 2px solid black; */
+  color: black;
+  background-color:antiquewhite;
+  justify-content: center;
+  align-items: center;
+  /* transition: all 0.2s ease-in-out; */
+}
+.home2:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
