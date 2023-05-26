@@ -216,7 +216,7 @@ ul li a:hover {
 }
 /* till now map, boy done  */
 
-.home2 {
+#home2 {
   border-radius: 50px;
   /* border: 12px solid red; */
   display: inline-flex;
@@ -227,7 +227,7 @@ ul li a:hover {
   top: 550px;
   width: auto;
 }
-.home2 div {
+#home2 div {
   border-radius: 32px;
   display: flex;
 height: 150px;
@@ -241,7 +241,46 @@ width: 300px;
   align-items: center;
   /* transition: all 0.2s ease-in-out; */
 }
-.home2:hover{
+#home2:hover{
   transform: scale(1.2);
   cursor: pointer;
+}
+
+/* Home3  */
+#home3{
+  position: absolute;
+  width: 99%;
+  top: 1200px;
+  height: 700px;
+  border: 2px solid red;
+}
+#home3 .pic{
+ 
+  border: 2px solid black;
+  color: rgb(9, 97, 174);
+  margin: 90px;
+  padding: 20px;
+  font-size: 3rem;
+}
+.pic p{
+  color: red;
+  display: block;
+  position: relative;
+  border: 2px solid purple;
+  padding: 30px 0px 13px 681px;
+}
+
+.products{
+  border: 2px solid green;
+  display: block;
+}
+
+#food{
+  /* display: inline-flex; */
+  flex-direction: column;
+  border: 2px solid saddlebrown;
+}
+#food img{
+  height: 100px;
+  width: 100px;
 }
